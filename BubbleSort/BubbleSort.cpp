@@ -16,8 +16,8 @@ void input(){ // procedur untuk input
     }
     cout << endl; // Output baris kosong
     cout << "=====================" << endl; // Output ke layar
-    cout << "Masukkan elemen array" << endl;
-    cout << "=====================" << endl;
+    cout << "Masukkan elemen array" << endl; // Output ke layar
+    cout << "=====================" << endl; // Output ke layar
 
     for (int i = 0; i < n; i++) { // Looping dengan i dimulai dari 0 hingga n
         cout << "Data ke-" << (i + 1) << ": ";
@@ -39,32 +39,32 @@ void BubbleSortArray() { // procedur untuk mengurutkan array dengan metode bubbl
 
         cout << "\nPass" << pass - 2 << "; ";
         for (int k = 0; k < n; k++) { // looping nilai k dimulai dari 0 hingga n
-            cout << a[k] << " ";
+            cout << a[k] << " "; // Output ke layar
 
 
         }
-        cout << endl;
+        cout << endl; // Output baris kosong
 
 
     } while (pass <= n - 1);  //step 5
 }
 
 void  display() {
-    cout << endl;
-    cout << "=================================" << endl;
-    cout << "Element Array yang telah tersusun" << endl;
-    cout << "=================================" << endl;
-    cout << endl;
+    cout << endl; // Output baris kosong
+    cout << "=================================" << endl; // Output ke layar
+    cout << "Element Array yang telah tersusun" << endl; // Output ke layar
+    cout << "=================================" << endl; // Output ke layar
+    cout << endl; // Output baris kosong
     for (int j = 0; j < n; j++) {
         cout << a[j];
         if (j < n - 1) {
             cout << " --->";
         }
     }
-    cout << endl;
-    cout << endl;
-    cout << "Jumlah pass =" << n - 1 << endl;
-    cout << endl;
+    cout << endl; // Output baris kosong
+    cout << endl; // Output baris kosong
+    cout << "Jumlah pass =" << n - 1 << endl; //Output jumlah pass
+    cout << endl; // Output baris kosong
 }
 
 int main() {
